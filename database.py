@@ -4,10 +4,7 @@ from sqlalchemy.orm import sessionmaker
 import os
 
 # Direct database connection 
-# SQLALCHEMY_DATABASE_URL = "postgresql://myuser:Dhillon@86830@localhost/manoj"
 SQLALCHEMY_DATABASE_URL = "postgresql://manoj:manoj@localhost/manoj"
-
-
 
 
 # Creating the SQLAlchemy engine
